@@ -83,7 +83,7 @@ def translator():
                         sheet1.write(column, row, value)
                 wb_w.save(r'' + os.path.join(app.config['CLIENT_EXCELS'], excel.filename))
                 print("Translated")
-
+                print("Done")
 
 
             return redirect(request.url)
